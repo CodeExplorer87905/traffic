@@ -1,0 +1,133 @@
+/*body {
+    background-color: black;
+}b
+
+.box {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: white;
+
+    position: relative;
+    animation-name: box-animation;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 3s;
+
+}
+
+@keyframes box-animation {
+    0%{
+        left: 0;
+    }
+
+
+
+    50% {
+        border-radius: 0;
+        background-color: yellow;
+    }
+       
+    
+
+    100% {
+        left:500px;
+    }
+}
+    */
+
+
+
+    .box {
+        width: 150px;
+        height: 400px;
+        background-color: grey;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+
+    }
+
+
+    
+    .red {
+        border-radius: 50px;
+        width: 100px;
+        height: 100px;
+        background: black;
+        animation-name: red;
+        animation-duration: 7s;
+
+
+    }
+
+    @keyframes red {
+        0% {
+
+        }
+
+        1% {
+            background: red;
+        }
+        
+
+        100% {
+            background: red;        
+        }
+    }
+
+    .yellow {
+        border-radius: 50px;
+        width: 100px;
+        height: 100px;
+        background: black;
+        animation-name: yellow;
+        animation-duration: 7s;
+        animation-delay: 7s;
+
+    }
+
+    @keyframes yellow {
+        0% {
+
+        }
+
+        1% {
+            background: yellow;
+        }
+
+        100% {
+            background: yellow;
+        }
+    }
+
+    .green {
+        border-radius: 50px;
+        width: 100px;
+        height: 100px;
+        background: black;
+        animation-name: green;
+        animation-duration: 14s;
+        animation-delay: 14s;
+    }
+
+    @keyframes green {
+        0% {
+
+        }
+
+        1% {
+            background: green;
+        }
+
+        100% {
+            background: green;
+            
+        }
+    }
+
+
